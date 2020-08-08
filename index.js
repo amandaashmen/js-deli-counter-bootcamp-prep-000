@@ -1,5 +1,5 @@
 function takeANumber(line, name) {
-  return `Welcome, ${name}. You are number ${line[i]+1} in line`
+  return `Welcome, ${name}. You are number ${line.length + 1} in line`
 }
 
 takeANumber(['a'], 'dog')
