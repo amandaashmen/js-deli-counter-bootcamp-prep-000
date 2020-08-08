@@ -25,9 +25,8 @@ function currentLine(line) {
       if (i !== line.length-1)
         print += ", "
     }
-    
   }
   return print
 }
 
-console.log(currentLine(["a", "b"]))
+console.log(currentLine(["a", "b", "c"]))
