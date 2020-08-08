@@ -26,4 +26,4 @@ function currentLine(line) {
   }
 }
 
-currentLine(["a", "b"])
+console.log(currentLine(["a", "b"]))
