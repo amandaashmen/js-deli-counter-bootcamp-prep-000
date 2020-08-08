@@ -15,7 +15,7 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  var print = "The line is currently"
+  var print = "The line is currently "
   if (line.length === 0) {
     return print + "empty."
   }
