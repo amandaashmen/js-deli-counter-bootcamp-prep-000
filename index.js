@@ -21,8 +21,11 @@ function currentLine(line) {
   }
   else {
     for(let i = 0; i < line.length; i++) {
-      print += (i+1) + "." + line[i] + " "
+      print += (i+1) + ". " + line[i]
+      if (i !== line.length)
+        print += ","
     }
+    
   }
   return print
 }
