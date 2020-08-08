@@ -21,7 +21,7 @@ function currentLine(line) {
   }
   else {
     for(let i = 0; i < line.length; i++) {
-      print += i + line[i]
+      print += i + (line[i]+1)
     }
   }
   return print
