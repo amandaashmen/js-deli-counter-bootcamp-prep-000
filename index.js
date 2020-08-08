@@ -28,5 +28,3 @@ function currentLine(line) {
   }
   return print
 }
-
-console.log(currentLine(["a", "b", "c"]))
