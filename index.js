@@ -24,6 +24,7 @@ function currentLine(line) {
       print += i + line[i]
     }
   }
+  return print
 }
 
 console.log(currentLine(["a", "b"]))
